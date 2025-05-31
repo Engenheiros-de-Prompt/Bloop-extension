@@ -1,6 +1,6 @@
 {
-  "name": "Bloop",
-  "description": "Extensão para usar o Bloop!",
+  "name": "FeedBadger",
+  "description": "Extensão para usar o FeedBadger!",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["tabs"],
