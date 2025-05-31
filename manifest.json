@@ -3,8 +3,13 @@
   "description": "Extensão para usar o Bloop!",
   "version": "1.0",
   "manifest_version": 3,
+  "permissions": ["tabs"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon.png"
-  }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://localhost:5173/"]
 }
