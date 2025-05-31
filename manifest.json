@@ -1,10 +1,10 @@
 {
   "name": "Bloop",
-  "description": "Base Level Extension",
+  "description": "Extensão para usar o Bloop!",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "main.tsx",
+    "default_popup": "popup.js",
     "default_icon": "icon.png"
   }
 }
