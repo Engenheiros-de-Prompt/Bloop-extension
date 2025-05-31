@@ -3,7 +3,15 @@
   "description": "Extensão para usar o Bloop!",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["tabs"],
+  "host_permissions": [
+  "http://localhost/*"
+],
+"permissions": [
+  "scripting",
+  "activeTab",
+  "tabs"
+]
+
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon.png"
